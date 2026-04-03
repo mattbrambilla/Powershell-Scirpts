@@ -1,0 +1,1 @@
+$process = ([WMIClass]"\\$computerName\ROOT\cimv2:Win32_Process").create("rundll32.exe user32.dll,LockWorkStation")
